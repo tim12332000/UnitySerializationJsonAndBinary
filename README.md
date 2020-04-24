@@ -2,9 +2,11 @@
 Fix Unity Json and Binary Serialization error
 
 對於Unity 序列化 & 反序列化 大致上有的選擇有 Json , Binary , YAML
+
 YAML屬於Unity Prefab 儲存格式沒啥問題先不討論。
 
 Json 我選用 LitJSON
+
 Binary 選用 BinaryFormatter
 
 總之因為這兩個都沒對 Unity 的特定資料結構處理 比如Vector2 Vector3 之類的所以使用上會出現下面的問題
